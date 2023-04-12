@@ -1,0 +1,39 @@
+body{
+    background: blueviolet;
+    justify-content: center;
+    display: flex;
+    color: #303030;
+}
+form {
+    margin-top: 10px;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 0px;
+    padding: 0 30px ;
+    background-color:  #FFD9D9 ;
+}
+form h1{
+    color: blueviolet;
+    text-align: center;
+    background-size: 15px;
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+}
+input ::placeholder{
+    color: white;
+}
+select:invalid{
+    color: white;
+}
+form .social-media{
+    margin-top: 10px;
+    justify-content: center;
+}
+form .social-media-holder{
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #545454;
+    border-radius: 100%;
+
+}
+
